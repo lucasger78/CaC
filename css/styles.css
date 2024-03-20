@@ -8,6 +8,22 @@ h3{
 }
 
 
+.habilidad {
+    font-weight: bold;
+}
+
+.btn-info{
+    font-family: Montserrat extrabold, sans-serif;
+    font-size:small;
+    text-transform: uppercase;
+    border-radius: 4px;
+    
+}
+
+.info-btn{
+    padding-bottom: 10px;
+}
+
 .materiales-gallery {
     display: flex;
     justify-content: space-around;
@@ -19,7 +35,7 @@ h3{
     text-align: center;
     margin: 0;
     font-family: Montserrat extrabold, sans-serif;
-    padding-top: 10px;
+    padding-top: 20px;
     font-size:medium;
     text-transform: uppercase;
 
@@ -71,7 +87,7 @@ h3{
     text-align: left;
     margin: 0 auto;
     display: block;
-    /* border-radius: 20px; */
+    border-radius: 20px;
 
 }
 
