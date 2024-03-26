@@ -50,7 +50,7 @@ header {
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between;    
 }
 
 .navbar .logo a{
@@ -141,13 +141,15 @@ header {
     .dropdown_menu{
         left: 2rem;
         width: unset;
-        
+
     }
 }
 
 /* END NAV BAR */
 
 /* GALERIA DE CARTAS */
+
+
 
 .habilidad {
     font-weight: bold;
@@ -363,3 +365,145 @@ header {
 .user-btn{
     padding-top: 10px;
 }
+
+
+/* CARRUSEL */
+
+
+.swiper-container {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 4;
+    position: relative;
+  }
+  
+  .swiper-wrapper {
+    display: flex;
+    animation: slide 35s linear infinite;
+    width: 100%; 
+    transform: translateX(0%);
+  }
+  
+  .swiper-slide {
+    flex: 0 0 20%; 
+    padding: 10px;
+  }
+  
+  .swiper-slide img {
+    width: 90%;
+    height: auto;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-340%); 
+    }
+  }
+  
+  /* Estilos para la versión móvil */
+  @media (max-width: 768px) {
+    .swiper-slide img {
+      width: 115%;
+    }
+    .swiper-slide {
+      flex: 0 0 30%; 
+      padding: 10px;
+    }
+    @keyframes slide {
+      0% {
+        transform: translateX(0%);
+      }
+      100% {
+        transform: translateX(-550%); 
+      }
+    }
+  }
+  
+  /* Estilo para las imágenes en blanco y negro */
+  .swiper-slide img {
+      filter: grayscale(100%);
+      transition: filter 0.3s ease-in-out; /* Transición suave para el filtro */
+  }
+  
+  /* Cambia la imagen a color cuando se hace hover */
+  .swiper-slide img:hover {
+      filter: grayscale(0%);
+  }
+  
+  @media (max-width: 768px){
+      .swiper-slide img {
+          filter: grayscale(100%);
+          transition: filter 0.3s ease-in-out; /* Transición suave para el filtro */
+      }
+      
+      /* Cambia la imagen a color cuando se hace hover */
+      .swiper-slide img:hover {
+          filter: grayscale(0%);
+      }
+  }  
+
+  /* Estilos para la versión móvil */
+  @media (max-width: 768px) {
+      /* Oculta el texto y muestra solo el botón */
+      .swiper-slide .content-gallery .title-materials,
+      .swiper-slide .content-gallery .párrafo-materials {
+          display: none;
+      }
+      /* Ajusta el tamaño de la imagen y el botón */
+      .swiper-slide img {
+          width: 100%;
+          height: auto;
+      }
+      .swiper-slide {
+          flex: 0 0 50%; /* Reduce el ancho del carrusel en dispositivos móviles */
+      }
+      
+      @keyframes slide {
+          0% {
+              transform: translateX(0%);
+          }
+          100% {
+              transform: translateX(-550%);
+          }
+      }
+
+  }
+  
+/* BOTÓN BACK TO TOP */
+
+/* Estilos para el contenedor del botón Back to Top */
+#backToTopContainer {
+    position: fixed;
+    z-index: 1000;
+}
+
+#backToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    z-index: 9999; /* Aumentado el valor del z-index */
+    right: 23px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(169, 169, 169, 0.5);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#backToTopBtn.show {
+    display: block; 
+}
+
+#backToTopBtn:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+ 
