@@ -434,8 +434,19 @@ header {
   .swiper-slide img {
       filter: grayscale(100%);
       transition: filter 0.3s ease-in-out; /* Transición suave para el filtro */
+      
   }
-  
+
+  /* Detener la animación cuando se pasa el cursor sobre una imagen */
+.swiper-container:hover .swiper-wrapper {
+    animation-play-state: paused;
+}
+
+/* Reanudar la animación cuando se retira el cursor de una imagen */
+.swiper-container:not(:hover) .swiper-wrapper {
+    animation-play-state: running;
+}
+
   /* Cambia la imagen a color cuando se hace hover */
   .swiper-slide img:hover {
       filter: grayscale(0%);
