@@ -78,10 +78,10 @@ header {
 }
 
 .navbar .toggle_btn {
-    color: #494949;
+    color: #363636;
     font-size: 1.5rem;
     cursor: pointer;
-    display: none;
+    display:none;
 
 }
 
@@ -102,11 +102,12 @@ header {
     top: 60px;
     width: 300px;
     height: 0;
-    background: rgba(48, 48, 48, 0.1);
+    background: rgba(48, 48, 48, 0.4);
     backdrop-filter: blur(15px);
     border-radius: 10px;
     overflow: hidden;
     transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    z-index: 999;
 }
 
 .dropdown_menu.open {
@@ -119,6 +120,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
 }
 
 .dropdown_menu .action_btn {
@@ -142,13 +144,19 @@ header {
     .dropdown_menu {
         display: block;
     }
+    .dropdown_menu li {     
+        color: white;
+    }
 }
 
 @media(max-width: 576px) {
     .dropdown_menu{
         left: 2rem;
-        width: unset;
+        width: unset; 
+    }
 
+    .dropdown_menu li {     
+        color: white;
     }
 }
 
@@ -467,13 +475,13 @@ header {
   /* Estilos para la versión móvil */
   @media (max-width: 768px) {
       /* Oculta el texto y muestra solo el botón */
-      .swiper-slide .content-gallery .title-materials,
+      /* .swiper-slide .content-gallery .title-materials,
       .swiper-slide .content-gallery .párrafo-materials {
           display: none;
-      }
+      } */
       /* Ajusta el tamaño de la imagen y el botón */
       .swiper-slide img {
-          width: 100%;
+          width: 80%;
           height: auto;
       }
       .swiper-slide {
@@ -488,6 +496,16 @@ header {
               transform: translateX(-550%);
           }
       }
+
+       /* Detener la animación cuando se pasa el cursor sobre una imagen */
+    .swiper-container:hover .swiper-wrapper {
+        animation-play-state: paused;
+    }
+
+    /* Reanudar la animación cuando se retira el cursor de una imagen */
+    .swiper-container:not(:hover) .swiper-wrapper {
+        animation-play-state: running;
+    }
 
   }
   
