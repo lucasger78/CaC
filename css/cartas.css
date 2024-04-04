@@ -95,3 +95,13 @@
     
 }
 
+@media (max-width: 900px) {
+    .p-slide {
+        display: none;
+    }
+    
+    .img-slide {
+        width: 100%;
+    }
+}
+

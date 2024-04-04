@@ -158,6 +158,10 @@ header {
 
     .navbar .toggle_btn{
         display: block;
+        color: #363636;
+        font-size: 1.5rem;
+        cursor: pointer;
+        
     }
 
     .dropdown_menu {
@@ -537,6 +541,16 @@ header {
     }
 
   }
+
+  @media (max-width: 768px) {
+    .p-slide {
+        display: none;
+    }
+    
+    .img-slide {
+        width: 100%;
+    }
+}
   
 /* BOTÓN BACK TO TOP */
 
@@ -570,6 +584,14 @@ header {
 #backToTopBtn:hover {
     background-color: rgba(0, 0, 0, 0.4);
 }
+
+/* Ajuste para la versión móvil */
+@media (max-width: 768px) {
+    #backToTopBtn {             
+        right: 600px; /* Alinear con las listas en la parte superior */
+    }
+}
+
 
 /* FOOTER */
 
@@ -700,28 +722,47 @@ h3{
     margin: 0;
     font-size: 16px;
     padding: 7px;
+    font-family: Montserrat, sans-serif !important;
+    font-weight:bold;
+    font-size:small;
 }
 
 
+/* Ajuste para la versión móvil */
 @media (max-width: 768px) {
     .container-footer {
+        margin-right: 0px;
+        padding-top: 50px;
+        display:block;
         flex-direction: column;
-        align-content: center;
-        position: relative;
-        display: inline-block; 
+        align-items: center;
+        padding-right: 70%;
     }
 
     .footer-content {
-        width: 100%;
+        width: 50%;
+        text-align: center;
+        margin-bottom: 20px; /* Espacio entre las listas */
+    }
+
+    .list-footer li {
+        text-align: center;
+    }
+
+    .social-icons {
+        /* display: flex; */
+        justify-content: center;
+    }
+
+    .social-icons li {
+        margin-right: 10px; /* Espacio entre los iconos sociales */
+    }
+
+    .bottom-bar {
+        text-align: center;
     }
 }
 
-/* Ajusta el ancho de las listas en la versión móvil */
-@media (max-width: 576px) {
-    .list-footer li {
-        width: 100%;
-    }
-}
 
 /* END FOOTER */
 
