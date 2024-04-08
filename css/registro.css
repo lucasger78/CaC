@@ -1,28 +1,25 @@
-/* body{
-    margin: auto;
-    background-color: #f5f5f5;
-    font-family: Montserrat extrabold, sans-serif;
-    display: grid;
-    place-items: center;
-} */
-form{
-    display: grid;
-    align-items: center;
-}
-/* h2{
-    text-align: center;
-    text-decoration: none;
-} */
 
-.form-text-title{
-    font-family: Montserrat extrabold, sans-serif;
-    font-size:large;
-    text-transform: uppercase;
+.materiales-gallery {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Ocupa el 100% de la altura de la ventana */
+}
+
+.gallery.form {
+    max-width: 400px; /* Define el ancho máximo del formulario */
+    background-color: #f0f0f0; /* Color de fondo opcional */
 }
 
 .form-text {
     font-family: Montserrat extrabold, sans-serif;
     font-size:small;
+    text-transform: uppercase;
+}
+
+.form-text-title {
+    font-family: Montserrat extrabold, sans-serif;
+    font-size:large;
     text-transform: uppercase;
 }
 
@@ -32,24 +29,31 @@ form{
     text-transform: uppercase;
 }
 
-/* .form_card{
-    margin-top: 20px;
-    padding: 20px;
-    justify-content: center;
-    width: 350px;
-    height: 400px;
-    border-color: black;
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 20px;
-} */
+.form-content label {
+    display: inline-block;
+    width: 120px; /*Ancho fijo para las etiquetas*/
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+
 .btn-info {
     font-family: Montserrat extrabold, sans-serif;
     font-size: small;
     text-transform: uppercase;
     border-radius: 4px;
 }
-/* #btn-suscribe{
-    background-color: #DC3545;
-    color: whitesmoke;
+
+/* .label-date{
+    width: 120px;
+    text-align: left !important;
 } */
+
+.input-date{
+    width: 195px !important;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.form-content label[for="fecha_de_nacimiento"] {
+    width: 120px; /* Ancho fijo para que coincida con los otros labels */
+    text-align: left; /* Alineación del texto a la izquierda */
+}

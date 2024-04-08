@@ -17,7 +17,7 @@
 
     <link rel="stylesheet" href="css/registro.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/login.css">
+    <!-- <link rel="stylesheet" href="css/login.css"> -->
     <title>Suscripción</title>
 </head>
 <body> 
@@ -33,20 +33,20 @@
                 <h2 class="form-text-title">Formulario de registro</h2>
                 <p class="form-text-p">Completa los campos para suscribirte:</p>
                 
-                <form class="form-text form-content" action="show_data.html" target="_blank">
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" name="nombre" placeholder="Ingrese su nombre...">
-                    <label for="apellido">Apellido:</label>
-                    <input type="text" name="apellido" placeholder="Ingrese su apellido...">
-                    <label for="fecha_de_nacimiento">Fecha de nacimiento:</label>
-                    <input type="date" name="fecha_de_nacimiento" placeholder="(dd/mm/aaaa)">
-                    <label for="email">Email:</label>
-                    <input type="text" name="email" placeholder="Ingrese su email">
-                    <label for="ciudad">Ciudad:</label>
-                    <input type="text" name="ciudad" placeholder="Ingrese ciudad donde reside...">
-                    <p class="form-text-p">Enterate de las ultimas cartas y novedades!
-                        Deseo informarme sobre novedades:<input type="checkbox" name="news" value="Si">
-                    </p>
+                <form class="form-text form-content" action="https://lucasger78.github.io/CaC/index.html" method="GET" target="_blank">
+                    <label class="label-register" for="nombre">Nombre:</label>
+                    <input type="text" class="input-register" name="nombre" placeholder="Ingrese su nombre..."><br><br>
+                    <label class="label-register" for="apellido">Apellido:</label>
+                    <input type="text" class="input-register" name="apellido" placeholder="Ingrese su apellido..."><br><br>
+                    <label class="label-register label-date" for="fecha_de_nacimiento">Fecha de nacimiento:</label>
+                    <input type="date" class="input-register input-date" name="fecha_de_nacimiento" placeholder="(dd/mm/aaaa)   "><br><br>
+                    <label class="label-register" for="email">Email:</label>
+                    <input type="text" class="input-register" name="email" placeholder="Ingrese su email"><br><br>
+                    <label class="label-register" for="ciudad">Ciudad:</label>
+                    <input type="text" class="input-register" name="ciudad" placeholder="Ingrese ciudad donde reside..."><br><br>
+                    <p class="form-text-p">Enterate de las ultimas cartas y novedades!<br>
+                        Deseo informarme sobre novedades: <input type="checkbox" name="news" value="Si">
+                    </p><br><br>
                     <input class="btn btn-danger" id="btn-suscribe" type="submit" value="Registrase"><br><br>
                 </form>
             </div>            
