@@ -43,9 +43,15 @@
 }
 
 .input-date{
-    width: 195px !important;
+    width: 125px !important;
     text-align: left;
     padding-left: 10px;
+}
+
+.input-register{
+    font-family: Montserrat, sans-serif;
+    font-size:x-small;
+    text-transform: uppercase;
 }
 
 @media(max-width: 1500px){
