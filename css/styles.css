@@ -18,6 +18,10 @@ h2, h3{
     font-family: Montserrat extrabold, sans-serif;
 }
 
+h4 {
+    font-family: Montserrat semibold, sans-serif;
+}
+
 .btn-a {
     text-decoration: none !important;
     color:#fff;
