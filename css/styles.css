@@ -250,7 +250,16 @@ header {
     padding-top: 20px;
     font-size:medium;
     text-transform: uppercase;
+}
 
+.destacada {
+    text-align: center;
+    margin: 0;
+    font-family: Montserrat extrabold, sans-serif;
+    padding-top: 20px;
+    font-size:medium;
+    text-transform: uppercase;
+    color: #e03737;
 }
 
 .párrafo-materials {
@@ -259,6 +268,16 @@ header {
     margin: 10px;
     padding-top: 0 8px;
     font-size: small;
+}
+
+.destaque {
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
+    text-align:initial;
+    margin: 10px;
+    padding-top: 0 8px;
+    font-size: small;
+    color: #e03737;
 }
 
 .gallery {
@@ -288,6 +307,27 @@ header {
 }
 
 .content-gallery:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+    0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translate(0px, -8px);
+}
+
+.content-gallery-destaca {
+    width: 100%; 
+    margin-right: 5px;   
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    justify-content: center;    
+    align-items:start;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: .4s;
+    background: #111111;
+}
+
+.content-gallery-destaca:hover {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
     0 3px 6px rgba(0, 0, 0, 0.23);
     transform: translate(0px, -8px);
@@ -795,6 +835,10 @@ h3{
     .texto-desktop {
         display: none;
     }
+}
+
+.user-img{
+    margin-top: 80px;
 }
 
  
