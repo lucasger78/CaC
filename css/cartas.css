@@ -32,11 +32,6 @@
     margin: 10px 0;
 }
 
-.destacada {
-    font-size: smaller !important;
-}
-
-
 .gallery {
     display: flex;
     flex-wrap: wrap;
