@@ -1,13 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
 body{
     background-color:whitesmoke;
 }
 
-/* body {
-    background-image: url('images/back3.jpg') !important;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-} */
 
 h1{
     font-family: Montserrat black, sans-serif;
