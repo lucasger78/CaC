@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "imagen": "cards/card01.jpg",
         "titulo": "Petg",
         "habilidades": [
+            "Faccion: (Zombie)",
             "Agilidad 80% (Velocidad y destreza física)",
             "Inteligencia 90% (Habilidad para resolver problemas)",
             "Fuerza 85% (Poder físico y capacidad de causar daño)",
@@ -14,6 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "imagen": "cards/card02.jpg",
         "titulo": "Petg",
         "habilidades": [
+            "Faccion: (Ninja)",
             "Agilidad 80% (Velocidad y destreza física)",
             "Inteligencia 90% (Habilidad para resolver problemas)",
             "Fuerza 85% (Poder físico y capacidad de causar daño)",
@@ -24,6 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "imagen": "cards/card03.jpg",
         "titulo": "Petg",
         "habilidades": [
+            "Faccion: (Ninja)",
             "Agilidad 80% (Velocidad y destreza física)",
             "Inteligencia 90% (Habilidad para resolver problemas)",
             "Fuerza 85% (Poder físico y capacidad de causar daño)",
@@ -34,6 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "imagen": "cards/card04.jpg",
         "titulo": "Petg",
         "habilidades": [
+            "Faccion: (Ninja)",
             "Agilidad 80% (Velocidad y destreza física)",
             "Inteligencia 90% (Habilidad para resolver problemas)",
             "Fuerza 85% (Poder físico y capacidad de causar daño)",
@@ -44,6 +48,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "imagen": "cards/card05.jpg",
         "titulo": "Petg",
         "habilidades": [
+            "Faccion: (Ninja)",
             "Agilidad 80% (Velocidad y destreza física)",
             "Inteligencia 90% (Habilidad para resolver problemas)",
             "Fuerza 85% (Poder físico y capacidad de causar daño)",
@@ -54,6 +59,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "imagen": "cards/card06.jpg",
         "titulo": "Petg",
         "habilidades": [
+            "Faccion: (Mitológica)",
             "Agilidad 80% (Velocidad y destreza física)",
             "Inteligencia 90% (Habilidad para resolver problemas)",
             "Fuerza 85% (Poder físico y capacidad de causar daño)",
@@ -64,6 +70,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "imagen": "cards/card07.jpg",
         "titulo": "Petg",
         "habilidades": [
+            "Faccion: (Mitológica)",
             "Agilidad 80% (Velocidad y destreza física)",
             "Inteligencia 90% (Habilidad para resolver problemas)",
             "Fuerza 85% (Poder físico y capacidad de causar daño)",
@@ -74,6 +81,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "imagen": "cards/card08.jpg",
         "titulo": "Petg",
         "habilidades": [
+            "Faccion: (Mitológica)",
             "Agilidad 80% (Velocidad y destreza física)",
             "Inteligencia 90% (Habilidad para resolver problemas)",
             "Fuerza 85% (Poder físico y capacidad de causar daño)",
@@ -84,6 +92,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "imagen": "cards/card09.jpg",
         "titulo": "Petg",
         "habilidades": [
+            "Faccion: (Monstruo)",
             "Agilidad 80% (Velocidad y destreza física)",
             "Inteligencia 90% (Habilidad para resolver problemas)",
             "Fuerza 85% (Poder físico y capacidad de causar daño)",
@@ -94,6 +103,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "imagen": "cards/card10.jpg",
         "titulo": "Petg",
         "habilidades": [
+            "Faccion: (Monstruo)",
             "Agilidad 80% (Velocidad y destreza física)",
             "Inteligencia 90% (Habilidad para resolver problemas)",
             "Fuerza 85% (Poder físico y capacidad de causar daño)",
@@ -104,6 +114,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "imagen": "cards/card11.jpg",
         "titulo": "Petg",
         "habilidades": [
+            "Faccion: (Ninja)",
             "Agilidad 80% (Velocidad y destreza física)",
             "Inteligencia 90% (Habilidad para resolver problemas)",
             "Fuerza 85% (Poder físico y capacidad de causar daño)",
@@ -114,6 +125,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "imagen": "cards/card12.jpg",
         "titulo": "Petg",
         "habilidades": [
+            "Faccion: (Zombie)",
             "Agilidad 80% (Velocidad y destreza física)",
             "Inteligencia 90% (Habilidad para resolver problemas)",
             "Fuerza 85% (Poder físico y capacidad de causar daño)",
@@ -121,9 +133,10 @@ document.addEventListener("DOMContentLoaded", function() {
             ]
       },
       {
-        "imagen": "cards/card08.jpg",
+        "imagen": "cards/card13.jpg",
         "titulo": "Petg",
         "habilidades": [
+            "Faccion: (Monstruo)",
             "Agilidad 80% (Velocidad y destreza física)",
             "Inteligencia 90% (Habilidad para resolver problemas)",
             "Fuerza 85% (Poder físico y capacidad de causar daño)",
@@ -131,9 +144,10 @@ document.addEventListener("DOMContentLoaded", function() {
             ]
       },
       {
-        "imagen": "cards/card09.jpg",
+        "imagen": "cards/card14.jpg",
         "titulo": "Petg",
         "habilidades": [
+            "Faccion: (Zombie)",
             "Agilidad 80% (Velocidad y destreza física)",
             "Inteligencia 90% (Habilidad para resolver problemas)",
             "Fuerza 85% (Poder físico y capacidad de causar daño)",
@@ -141,9 +155,10 @@ document.addEventListener("DOMContentLoaded", function() {
             ]
       },
       {
-        "imagen": "cards/card07.jpg",
+        "imagen": "cards/card15.jpg",
         "titulo": "Petg",
         "habilidades": [
+            "Faccion: (Monstruo)",
             "Agilidad 80% (Velocidad y destreza física)",
             "Inteligencia 90% (Habilidad para resolver problemas)",
             "Fuerza 85% (Poder físico y capacidad de causar daño)",
@@ -151,9 +166,10 @@ document.addEventListener("DOMContentLoaded", function() {
             ]
       },
       {
-        "imagen": "cards/card11.jpg",
+        "imagen": "cards/card16.jpg",
         "titulo": "Petg",
         "habilidades": [
+            "Faccion: (Mitológica)",
             "Agilidad 80% (Velocidad y destreza física)",
             "Inteligencia 90% (Habilidad para resolver problemas)",
             "Fuerza 85% (Poder físico y capacidad de causar daño)",
@@ -161,9 +177,10 @@ document.addEventListener("DOMContentLoaded", function() {
             ]
       },
       {
-        "imagen": "cards/card12.jpg",
+        "imagen": "cards/card17.jpg",
         "titulo": "Petg",
         "habilidades": [
+            "Faccion: (Monstruo)",
             "Agilidad 80% (Velocidad y destreza física)",
             "Inteligencia 90% (Habilidad para resolver problemas)",
             "Fuerza 85% (Poder físico y capacidad de causar daño)",
@@ -171,9 +188,10 @@ document.addEventListener("DOMContentLoaded", function() {
             ]
       },
       {
-        "imagen": "cards/card03.jpg",
+        "imagen": "cards/card18.jpg",
         "titulo": "Petg",
         "habilidades": [
+            "Faccion: (Zombie)",
             "Agilidad 80% (Velocidad y destreza física)",
             "Inteligencia 90% (Habilidad para resolver problemas)",
             "Fuerza 85% (Poder físico y capacidad de causar daño)",
@@ -181,9 +199,10 @@ document.addEventListener("DOMContentLoaded", function() {
             ]
       },
       {
-        "imagen": "cards/card06.jpg",
+        "imagen": "cards/card19.jpg",
         "titulo": "Petg",
         "habilidades": [
+            "Faccion: (Mitológica)",
             "Agilidad 80% (Velocidad y destreza física)",
             "Inteligencia 90% (Habilidad para resolver problemas)",
             "Fuerza 85% (Poder físico y capacidad de causar daño)",
@@ -191,9 +210,10 @@ document.addEventListener("DOMContentLoaded", function() {
             ]
       },
       {
-        "imagen": "cards/card01.jpg",
+        "imagen": "cards/card20.jpg",
         "titulo": "Petg",
         "habilidades": [
+            "Faccion: (Zombie)",
             "Agilidad 80% (Velocidad y destreza física)",
             "Inteligencia 90% (Habilidad para resolver problemas)",
             "Fuerza 85% (Poder físico y capacidad de causar daño)",
@@ -201,9 +221,10 @@ document.addEventListener("DOMContentLoaded", function() {
             ]
       },
       {
-        "imagen": "cards/card04.jpg",
+        "imagen": "cards/card21.jpg",
         "titulo": "Petg",
         "habilidades": [
+            "Faccion: (Mitológica)",
             "Agilidad 80% (Velocidad y destreza física)",
             "Inteligencia 90% (Habilidad para resolver problemas)",
             "Fuerza 85% (Poder físico y capacidad de causar daño)",
@@ -211,15 +232,38 @@ document.addEventListener("DOMContentLoaded", function() {
             ]
       },
       {
-        "imagen": "cards/card05.jpg",
+        "imagen": "cards/card22.jpg",
         "titulo": "Petg",
         "habilidades": [
+            "Faccion: (Zombie)",
             "Agilidad 80% (Velocidad y destreza física)",
             "Inteligencia 90% (Habilidad para resolver problemas)",
             "Fuerza 85% (Poder físico y capacidad de causar daño)",
             "Percepción 75% (Sensibilidad para anticipar peligros)"
             ]
-      },      
+      },
+      {
+        "imagen": "cards/card23.jpg",
+        "titulo": "Petg",
+        "habilidades": [
+            "Faccion: (Monstruo)",
+            "Agilidad 80% (Velocidad y destreza física)",
+            "Inteligencia 90% (Habilidad para resolver problemas)",
+            "Fuerza 85% (Poder físico y capacidad de causar daño)",
+            "Percepción 75% (Sensibilidad para anticipar peligros)"
+            ]
+      }, 
+      {
+        "imagen": "cards/card24.jpg",
+        "titulo": "Petg",
+        "habilidades": [
+            "Faccion: (Ninja)",
+            "Agilidad 80% (Velocidad y destreza física)",
+            "Inteligencia 90% (Habilidad para resolver problemas)",
+            "Fuerza 85% (Poder físico y capacidad de causar daño)",
+            "Percepción 75% (Sensibilidad para anticipar peligros)"
+            ]
+      },       
   ];
 
 // GENERAR CARRUSEL
@@ -306,70 +350,70 @@ new Swiper(".swiper-container", {
 });
 });
 
-// GENERAR TARJETA
-function generarTarjetas2() {
-    const swiperWrapper = document.getElementById("swiper-wrapper");
+// // GENERAR TARJETA
+// function generarTarjetas2() {
+//     const swiperWrapper = document.getElementById("swiper-wrapper");
 
-    datos.forEach((item) => {
-        const divGallery = document.createElement("div");
-        divGallery.classList.add("gallery");
+//     datos.forEach((item) => {
+//         const divGallery = document.createElement("div");
+//         divGallery.classList.add("gallery");
 
-        const divContentGallery = document.createElement("div");
-        divContentGallery.classList.add("content-gallery");
+//         const divContentGallery = document.createElement("div");
+//         divContentGallery.classList.add("content-gallery");
 
-        const img = document.createElement("img");
-        img.classList.add("img-gallery");
-        img.src = item.imagen;
-        img.alt = "galeria-materiales";
+//         const img = document.createElement("img");
+//         img.classList.add("img-gallery");
+//         img.src = item.imagen;
+//         img.alt = "galeria-materiales";
 
-        const h4 = document.createElement("h4");
-        h4.classList.add("title-materials");
-        h4.textContent = item.titulo;
+//         const h4 = document.createElement("h4");
+//         h4.classList.add("title-materials");
+//         h4.textContent = item.titulo;
 
-        const divHabilidades = document.createElement("div");
-        divHabilidades.classList.add("habilidades");
+//         const divHabilidades = document.createElement("div");
+//         divHabilidades.classList.add("habilidades");
 
-        item.habilidades.forEach((habilidad) => {
-            const habilidadParts = habilidad.split("(");
-            const habilidadName = habilidadParts[0].trim();
-            const habilidadDesc = habilidadParts[1].replace(")", "").trim();
+//         item.habilidades.forEach((habilidad) => {
+//             const habilidadParts = habilidad.split("(");
+//             const habilidadName = habilidadParts[0].trim();
+//             const habilidadDesc = habilidadParts[1].replace(")", "").trim();
 
-            const spanNombre = document.createElement("span");
-            spanNombre.classList.add("habilidad");
-            spanNombre.textContent = habilidadName;
+//             const spanNombre = document.createElement("span");
+//             spanNombre.classList.add("habilidad");
+//             spanNombre.textContent = habilidadName;
 
-            const spanDesc = document.createElement("span");
-            spanDesc.textContent = `(${habilidadDesc})`;
+//             const spanDesc = document.createElement("span");
+//             spanDesc.textContent = `(${habilidadDesc})`;
 
-            // Aplicar negrita solo al nombre de la habilidad
-            spanNombre.style.fontWeight = "bold";
+//             // Aplicar negrita solo al nombre de la habilidad
+//             spanNombre.style.fontWeight = "bold";
 
-            divHabilidades.appendChild(spanNombre);
-            divHabilidades.appendChild(spanDesc);
-            divHabilidades.appendChild(document.createElement("br"));
-        });
+//             divHabilidades.appendChild(spanNombre);
+//             divHabilidades.appendChild(spanDesc);
+//             divHabilidades.appendChild(document.createElement("br"));
+//         });
 
-        const divInfoBtn = document.createElement("div");
-        divInfoBtn.classList.add("info-btn");
+//         const divInfoBtn = document.createElement("div");
+//         divInfoBtn.classList.add("info-btn");
 
-        const button = document.createElement("button");
-        button.classList.add("btn", "btn-danger", "btn-info");
-        const link = document.createElement("a");
-        link.href = "usuario.html";
-        link.classList.add("action_btn");
-        link.textContent = "+ Info";
-        button.appendChild(link);
+//         const button = document.createElement("button");
+//         button.classList.add("btn", "btn-danger", "btn-info");
+//         const link = document.createElement("a");
+//         link.href = "usuario.html";
+//         link.classList.add("action_btn");
+//         link.textContent = "+ Info";
+//         button.appendChild(link);
 
-        divContentGallery.appendChild(img);
-        divContentGallery.appendChild(h4);
-        divContentGallery.appendChild(divHabilidades);
-        divContentGallery.appendChild(divInfoBtn);
-        divInfoBtn.appendChild(button);
-        divGallery.appendChild(divContentGallery);
-        swiperWrapper.appendChild(divGallery);
-    });
-}
+//         divContentGallery.appendChild(img);
+//         divContentGallery.appendChild(h4);
+//         divContentGallery.appendChild(divHabilidades);
+//         divContentGallery.appendChild(divInfoBtn);
+//         divInfoBtn.appendChild(button);
+//         divGallery.appendChild(divContentGallery);
+//         swiperWrapper.appendChild(divGallery);
+//     });
+// }
 
-// Inicializar la generación de tarjetas
-generarTarjetas2();
+// // Inicializar la generación de tarjetas
+// generarTarjetas2();
 
