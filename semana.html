@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganadores de la semana</title>
     <link rel="shortcut icon" href="images/favicon.png">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">	
@@ -12,150 +13,161 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <style>
-    @import url('https://fonts.googleapis.com/css?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
     </style>
+
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">     
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
-
-
+    <link rel="stylesheet" href="css/semana.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/cardsFacciones.css">
-    
-
-    <a href="#" id="backToTopBtn">↑</a>
-
-    <title>Cards</title>
 </head>
 <body>
-
-<!-- ===== NAV BAR ===== -->
-<header>
-    <div class="navbar">
-        <div class="logo"><a href="#">Customize Cards</a></div>            
-        <ul class="links">
-            <li><a href="#">Home</a></li>
+    <!-- ===== NAV BAR ===== -->
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="index.html">Customize Cards</a></div>            
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cards.html">Cartas</a></li>
+                <li><a href="users.html">Usuarios</a></li>
+                <li><a href="semana.html">Ganadores</a></li>
+                <li><a href="#">Contacto</a></li>                
+            </ul>
+            <div>
+                <button class="btn btn-danger btn-log"><a href="registro.html" class="action_btn">Registrar</a></button>
+                <button class="btn btn-warning btn-log"><a href="login.html" class="action_btn">Login</a></button>
+            </div>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="dropdown_menu">
+            <li><a href="index.html">Home</a></li>
             <li><a href="cards.html">Cartas</a></li>
             <li><a href="users.html">Usuarios</a></li>
             <li><a href="semana.html">Ganadores</a></li>
-            <li><a href="#">Contacto</a></li>                
-        </ul>
-        <div>
+            <li><a href="#">Contacto</a></li>
             <button class="btn btn-danger btn-log"><a href="registro.html" class="action_btn">Registrar</a></button>
             <button class="btn btn-warning btn-log btn-log_in"><a href="login.html" class="action_btn">Login</a></button>
         </div>
-        <div class="toggle_btn">
-            <i class="fa-solid fa-bars"></i>
-        </div>
-    </div>
-    <div class="dropdown_menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="cards.html">Cartas</a></li>
-        <li><a href="users.html">Usuarios</a></li>
-        <li><a href="semana.html">Ganadores</a></li>
-        <li><a href="#">Contacto</a></li>
-        <button class="btn btn-danger btn-log"><a href="registro.html" class="action_btn">Registrar</a></button>
-        <button class="btn btn-warning btn-log"><a href="login.html" class="action_btn">Login</a></button>
-    </div>
-</header>
-
+    </header>
 <!-- ===== END NAV BAR ===== -->
-
+<br>
+<br>
+<br>
 <div class="section section-3 container-material" data-aos="fade-up" data-aos-delay="100" id="materials">
     <div class="container container-material">
         <div class="row align-items-center justify-content-center mb-5">
-            <div class="col-lg-5" data-aos="fade-up">
-                <h1 class="heading mb-3 title">Facciones</h1>
-                <h4>Elige tu facción, customiza tus cartas y conquista los <span class="h4-facc"> 4 Reinos</span></h4>
+            <div class="" data-aos="fade-up">
+                <h1 class="title">Ganadores de la Semana</h1>
+                <h4>Mejores de la Semana de los <span class="h4-facc"> 4 Reinos</span></h4>
                 <!-- <p>Trabajamos con materiales de origen nacional que nos aseguran excelente calidad y constante disponibilidad.</p> -->
             </div>
         </div>
     </div>
-</div>        
-     <!-- ===== FACCIONES ===== --> 
-     
-     <section class="materiales-gallery-facc">       
-        
-        <div class="gallery-facc">
-            <div class="content-gallery-zombie-facc">
-                <img class="img-facc" src="cards/card01.jpg" alt="galeria-materiales">
-                <h4 class="destacada-facc-zombie">Zombie:</h4> 
-                <p class="párrafo-materials-facc">Desde las sombras de la noche eterna emergen los no muertos, hambrientos de carne y sedientos de conquista. Con su ejército de zombis, buscan extender su reinado de oscuridad sobre los reinos, sembrando el terror y la desesperación a su paso.</p>
-                <div class="info-btn">
-                    <button class="btn btn-danger btn-info"><a href="faccionZ.html" class="action_btn">+ Info</a></button>
-                </div>
+</div>           
+<!-- ========== USERS SECTION ========== -->
+    <div class="container">
+        <!-- Card 1 -->
+        <div class="card, usuario">
+            <h3 class="faccion1">Faccion <span>Zombie</span></h3>
+            <img src="https://randomuser.me/api/portraits/men/18.jpg" alt="User 1" class="card-image img-fluid">
+            <p class="card-description p-facc">Enfocado en el <span class="user-span">Aguante y Duracion</span> de las partidas.
+                El juego tardio es su fuerte</p>
+                <br>
+            <button class="toggle-btn">Ver más</button>
+            <div class="subcards">
+                <div class="subcard">
+                    <img src="cards/card09.jpg" alt="Subimage 1" class="subcard-image">
                     
-            </div>            
-        </div>
-
-        <div class="gallery-facc">
-            <div class="content-gallery-ninja-facc">
-                <img class="img-facc" src="cards/card02.jpg" alt="galeria-materiales">
-                <h4 class="destacada-facc-ninja">Ninja:</h4>
-                <p class="párrafo-materials-facc">Sigilosos como la brisa nocturna, los ninjas son maestros del arte del sigilo y la letalidad. Con sus habilidades mortales y su código de honor inquebrantable, se alzan para reclamar los reinos, asegurando su dominio con precisión letal.</p>
-                <div class="info-btn">
-                    <button class="btn btn-danger btn-info"><a href="faccionZ.html" class="action_btn">+ Info</a></button>
+                </div>
+                <div class="subcard">
+                    <img src="cards/card04.jpg" alt="Subimage 2" class="subcard-image">
+                    
+                </div>
+                <div class="subcard">
+                    <img src="cards/card03.jpg" alt="Subimage 3" class="subcard-image">
+                    
                 </div>
             </div>
         </div>
-        <div class="gallery-facc">
-            <div class="content-gallery-mito-facc">
-                <img class="img-facc" src="cards/card07.jpg" alt="galeria-materiales">
-                <h4 class="destacada-facc-mito">Mitológica:</h4>
-                <p class="párrafo-materials-facc">Criaturas de la antigüedad, seres de leyenda despiertan de su letargo ancestral. Con la magia y la fuerza de los dioses, los mitológicos marchan hacia los reinos, decididos a restaurar su grandeza y reclamar lo que es suyo por derecho divino.</p>
-                <div class="info-btn">
-                    <button class="btn btn-danger btn-info"><a href="faccionZ.html" class="action_btn">+ Info</a></button>
+
+
+        <!-- Card 2 -->
+        <div class="card, usuario">
+            <h3 class="faccion2">Faccion <span>Ninja</span></h3>
+            <img src="https://randomuser.me/api/portraits/men/51.jpg" alt="User 1" class="card-image img-fluid">
+            <p class="card-description p-facc">Jugador <span class="user-span">Rapido y Certero.</span><br>
+                Seleccion precisa de cartas para diversas situaciones</p>
+                <br>
+                
+            <button class="toggle-btn">Ver más</button>
+            <div class="subcards">
+                <div class="subcard">
+                    <img src="cards/card02.jpg" alt="Subimage 1" class="subcard-image">
+                    
+                </div>
+                <div class="subcard">
+                    <img src="cards/card08.jpg" alt="Subimage 2" class="subcard-image">
+                    
+                </div>
+                <div class="subcard">
+                    <img src="cards/card11.jpg" alt="Subimage 3" class="subcard-image">
+                    
                 </div>
             </div>
         </div>
-        <div class="gallery-facc">
-            <div class="content-gallery-mounstro-facc">
-                <img class="img-facc" src="cards/card10.jpg" alt="galeria-materiales">
-                <h4 class="destacada-facc-mounstro">Monstruo:</h4>
-                <p class="párrafo-materials-facc">De las profundidades más oscuras emergen los monstruos, horrores que desafían la razón y comprensión. Con su sed insaciable de caos y destrucción, arrasan todo a su paso, consumiendo los reinos en una vorágine de pesadilla y desesperación.</p>
-                <div class="info-btn">
-                    <button class="btn btn-danger btn-info"><a class="btn-a" href="faccionZ.html">+ Info</a></button>
+
+        <!-- Card 3 -->
+        <div class="card, usuario">
+            <h3 class="faccion3">Faccion <span>Mitologica</span></h3>
+            <img src="https://randomuser.me/api/portraits/women/50.jpg" alt="User 1" class="card-image img-fluid">
+            <p class="card-description p-facc">Especialista en <span class="user-span">Defensa y Contrataque.</span>
+                Combinaciones multiples de Tanques y Ligeros</p>
+            <button class="toggle-btn">Ver más</button>
+            <div class="subcards">
+                <div class="subcard">
+                    <img src="cards/card01.jpg" alt="Subimage 1" class="subcard-image">
+                    
+                </div>
+                <div class="subcard">
+                    <img src="cards/card05.jpg" alt="Subimage 2" class="subcard-image">
+                    
+                </div>
+                <div class="subcard">
+                    <img src="cards/card12.jpg" alt="Subimage 3" class="subcard-image">
+                    
                 </div>
             </div>
         </div>
-        
-    </section>  
-   
 
-    <!-- ===== END FACCIONES ===== -->
-
-
-
-    <div class="section section-3 container-material" data-aos="fade-up" data-aos-delay="100" id="materials">
-        <div class="container container-material">
-            <div class="row align-items-center justify-content-center mb-5">
-                <div class="col-lg-5" data-aos="fade-up">
-                    <h1 class="heading mb-3 title">Cartas</h1>
-                    <h4>Customizá tus cartas y tené una colección única</h4>
-                    <!-- <p>Trabajamos con materiales de origen nacional que nos aseguran excelente calidad y constante disponibilidad.</p> -->
+        <!-- Card 4 -->
+        <div class="card, usuario">
+            <h3 class="faccion4">Faccion <span>Mounstros</span></h3>
+            <img src="https://randomuser.me/api/portraits/men/15.jpg" alt="User 1" class="card-image img-fluid">
+            <p class="card-description p-facc">Su juego se basa en <span class="user-span">La Agresividad y Perseverancia.</span>
+                No pierde el tiempo en ningun ataque y sabe donde desembocar</p>
+            <button class="toggle-btn">Ver más</button>
+            <div class="subcards">
+                <div class="subcard">
+                    <img src="cards/card10.jpg" alt="Subimage 1" class="subcard-image">
+                    
+                </div>
+                <div class="subcard">
+                    <img src="cards/card07.jpg" alt="Subimage 2" class="subcard-image">
+                    
+                </div>
+                <div class="subcard">
+                    <img src="cards/card06.jpg" alt="Subimage 3" class="subcard-image">
+                    
                 </div>
             </div>
         </div>
     </div>
-
-    <!-- ===== CARDS ===== -->
-     <!-- ===== SLIDE CARDS ===== -->
-     <section class="materiales-gallery">        
-        <div class="swiper-container">
-            <div class="swiper-wrapper" id="swiper-wrapper">
-                <!-- Aquí se generan las tarjetas DOM -->
-            </div>
-        </div>
-    </section>     
-    <br> 
-     <!-- ===== END SLIDE CARDS ===== -->  
-    
-
+    <br>
+    <br>
     <!-- === FOOTER === -->
     <footer style="z-index: 999;">        
         <div class="container-footer">
@@ -175,7 +187,6 @@
                     <li><a href="#">Home</a></li>
                     <li><a href="cards.html">Cartas</a></li>
                     <li><a href="users.html">Usuarios</a></li>
-                    <li><a href="semana.html">Ganadores</a></li>
                     <li><a href="#">Contacto</a></li>
                  </ul>
             </div>
@@ -194,12 +205,14 @@
         </div>
     </footer>
     <!-- === END FOOTER === -->
-
     <script src="js/script.js"></script>
     <script src="js/cardsIndex.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- <script src="js/semana.js"></script> -->
+
+    <script src="js/semana.js"></script>
 </body>
 </html>
