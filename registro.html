@@ -38,22 +38,22 @@
                 <h2 class="form-text-title">Formulario de registro</h2>
                 <p class="form-text-p">Completa los campos para suscribirte:</p>
                 
-                <form class="form-text form-content" action="https://formspree.io/f/xoqgpdyk" method="post">
+                <form id="myForm" class="form-text form-content" action="https://formspree.io/f/xoqgpdyk" method="post" onsubmit="return validacion()">
                     <label class="label-register" for="nombre">Nombre:</label>
-                    <input type="text" class="input-register" name="nombre" placeholder="Ingrese nombre..."><br><br>
+                    <input type="text" class="input-register" id="nombre" name="nombre" placeholder="Ingrese nombre..."><br><br>
                     <label class="label-register" for="apellido">Apellido:</label>
-                    <input type="text" class="input-register" name="apellido" placeholder="Ingrese apellido..."><br><br>
+                    <input type="text" class="input-register" id="apellido" name="apellido" placeholder="Ingrese apellido..."><br><br>
                     <label class="label-register label-date" for="fecha_de_nacimiento">Fecha de nacimiento:</label>
-                    <input type="date" class="input-register input-date" name="fecha_de_nacimiento" placeholder="(dd/mm/aaaa)   "><br><br>
+                    <input type="date" class="input-register input-date" id="fecha_de_nacimiento" name="fecha_de_nacimiento" placeholder="(dd/mm/aaaa)"><br><br>
                     <label class="label-register" for="email">Email:</label>
-                    <input type="text" class="input-register" name="email" placeholder="Ingrese email..."><br><br>
+                    <input type="text" class="input-register" id="email" name="email" placeholder="Ingrese email..."><br><br>
                     <label class="label-register" for="ciudad">Ciudad:</label>
-                    <input type="text" class="input-register" name="ciudad" placeholder="Ingrese ciudad..."><br><br>
-                    <p class="form-text-p">Enterate de las ultimas cartas y novedades!<br>
+                    <input type="text" class="input-register" id="ciudad" name="ciudad" placeholder="Ingrese ciudad..."><br><br>
+                    <p class="form-text-p">Enterate de las últimas cartas y novedades!<br>
                         Deseo informarme sobre novedades: <input type="checkbox" name="news" value="Si">
                     </p><br><br>
-                    <input class="btn btn-danger" id="btn-suscribe" type="submit" value="Registrase">
-                    <input type="hidden" name="_next" value=" https://lucasger78.github.io/CaC/index.html" /><br><br>
+                    <input class="btn btn-danger" id="btn-suscribe" type="submit" value="Registrarse">
+                    <input type="hidden" name="_next" value="https://lucasger78.github.io/CaC/index.html"><br><br>
                 </form>
             </div>            
         </div>
@@ -99,6 +99,7 @@
         <!-- === END FOOTER === -->
 
 <script src="js/script.js"></script>
+<script src="js/js-validation.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
