@@ -1,4 +1,4 @@
-
+//REGISTRO
 function validacion() {
     var nombre = document.getElementById("nombre").value;
     var apellido = document.getElementById("apellido").value;
@@ -33,3 +33,25 @@ function validacion() {
     }
     return true;
 }
+
+//LOGIN
+function validacionLogin() {
+    var fname = document.getElementById("fname").value;
+    var lname = document.getElementById("lname").value;
+
+    if (fname === "") {
+        alert("Por favor ingresa tu nombre.");
+        return false;
+    }
+    if (lname === "") {
+        alert("Por favor ingresa tu contraseña.");
+        return false;
+    }
+    return true;
+}
+
+document.getElementById("loginForm").onsubmit = function() {
+    return validacionLogin();
+};
+
+
